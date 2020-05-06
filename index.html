@@ -17,7 +17,21 @@
 
 <body>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKJHlCqiGmPA5Rqlw6FW3t_BJrk4rSkoE&callback=initMap&libraries=places"
+  <div class="container-fluid">
+    <main>
+      <div class="row row-cols-2 no-gutters" id="centroid-split-north">
+        <div class="col-3">hotelSearchResponce</div>
+        <div class="col-9">mapNorth3D</div>
+      </div>
+      <div class="row row-cols-2 no-gutters" id="centroid-split-south">
+        <div class="col-6">mapSouthSatellite</div>
+        <div class="col-6">mapSouthPano</div>
+      </div>
+    </main>
+  </div>
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKJHlCqiGmPA5Rqlw6FW3t_BJrk4rSkoE&callback=initMap&libraries=places"
     async defer>
   </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

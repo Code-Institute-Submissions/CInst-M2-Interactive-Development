@@ -1,0 +1,11 @@
+#centroid-split-north {
+  height: 50%;
+  width: 100%;
+  background-color: aqua;
+}
+
+#centroid-split-south {
+  height: 50%;
+  width: 100%;
+  background-color: brown;
+}
