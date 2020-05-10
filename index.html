@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- FAVicon -->
   <title>midiMaps | Interactive Hotel Search </title>
@@ -17,18 +17,17 @@
 
 <body>
 
-  <div class="container-fluid">
-    <main>
-      <div class="row row-cols-2 no-gutters" id="centroid-split-north">
-        <div class="col-3">hotelSearchResponce</div>
-        <div class="col-9">mapNorth3D</div>
-      </div>
-      <div class="row row-cols-2 no-gutters" id="centroid-split-south">
-        <div class="col-6">mapSouthSatellite</div>
-        <div class="col-6">mapSouthPano</div>
-      </div>
-    </main>
-  </div>
+
+  
+
+
+
+
+<div id="hotelSearchMap">hotelSearchMap</div>
+  <div id="map">map</div>
+  <div id="pano">pano</div>
+
+  <script src="assets/js/scripts.js"></script>  
 
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKJHlCqiGmPA5Rqlw6FW3t_BJrk4rSkoE&callback=initMap&libraries=places"
@@ -43,6 +42,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
   </script>
+
+
 
 </body>
 

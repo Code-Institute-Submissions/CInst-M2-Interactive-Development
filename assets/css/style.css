@@ -1,11 +1,23 @@
-#centroid-split-north {
-  height: 50%;
-  width: 100%;
-  background-color: aqua;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-#centroid-split-south {
+/* MAPS */
+/* MAPS - hotelSearchMap */
+#hotelSearchMap {
   height: 50%;
-  width: 100%;
-  background-color: brown;
+  width: 66.66%;
+  margin-right: 0;
 }
+/* MAPS - dualMaps */
+#map, #pano {
+  float: left;
+  height: 50%;
+  width: 50%;
+}
+/* MAPS - END */
+
+
+
