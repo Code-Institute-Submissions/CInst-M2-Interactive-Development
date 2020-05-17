@@ -19,5 +19,26 @@ html, body {
 }
 /* MAPS - END */
 
+#hotelSearchData {
+  /* float: right; */
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: rgba(255, 127, 80, 0.285);
+  width: 33.33%;
+  height: 50%;
 
+}
+
+#nav {
+  position: inherit;
+  width: 100%;
+  /* padding: 0; */
+  background-color: rgb(255, 255, 255) !important;
+}
+
+#results {
+  overflow: scroll;
+  height: 104.2%;
+}
 

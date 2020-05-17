@@ -13,15 +13,61 @@
 
   <!-- FAVicon -->
   <title>midiMaps | Interactive Hotel Search </title>
+  <style>
+
+  </style>
 </head>
 
 <body>
 
-<div id="hotelSearchMap">hotelSearchMap</div>
+  <div id="hotelSearchMap">hotelSearchMap</div>
+
+  <div id="hotelSearchData">
+
+
+
+
+    <nav id="nav" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <input type="text" class="form-control" placeholder="Search MidiMaps">
+      <div class="input-group-prepend">
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+          Country
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item disabled" value="all">select country</a>
+          <a class="dropdown-item" value="us">U.S.A.</a>
+          <a class="dropdown-item" value="au">Australia</a>
+          <a class="dropdown-item" value="br">Brazil</a>
+          <a class="dropdown-item" value="ca">Canada</a>
+          <a class="dropdown-item" value="fr">France</a>
+          <a class="dropdown-item" value="de">Germany</a>
+          <a class="dropdown-item" value="mx">Mexico</a>
+          <a class="dropdown-item" value="nz">New Zealand</a>
+          <a class="dropdown-item" value="it">Italy</a>
+          <a class="dropdown-item" value="za">South Africa</a>
+          <a class="dropdown-item" value="es">Spain</a>
+          <a class="dropdown-item" value="pt">Portugal</a>
+          <a class="dropdown-item" value="uk">United Kingdom</a>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <div id="results" class="container-fluid"><br>
+      <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+      <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+      <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+      <p>Some example text. Some example text. Some example text. Some example text. Some example text.</p>
+    </div>
+
+
+  </div>
+
   <div id="map">map</div>
   <div id="pano">pano</div>
 
-  <script src="assets/js/scripts.js"></script>  
+  <script src="assets/js/scripts.js"></script>
 
   <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKJHlCqiGmPA5Rqlw6FW3t_BJrk4rSkoE&callback=initMap&libraries=places"
