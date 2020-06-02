@@ -11,6 +11,8 @@ html, body {
   width: 66.66%;
   margin-right: 0;
 }
+
+
 /* MAPS - dualMaps */
 #map, #pano {
   float: left;
@@ -20,25 +22,42 @@ html, body {
 /* MAPS - END */
 
 #hotelSearchData {
-  /* float: right; */
+  background-color: rgb(41, 41, 85);
+  /* background:url(""); */
+  background-position: center;
+  background-repeat: no-repeat;
   position: absolute;
   right: 0;
-  top: 0;
-  background-color: rgba(255, 127, 80, 0.285);
+  top: 0; 
   width: 33.33%;
   height: 50%;
 
 }
 
-#nav {
-  position: inherit;
-  width: 100%;
-  /* padding: 0; */
-  background-color: rgb(255, 255, 255) !important;
-}
 
 #results {
   overflow: scroll;
-  height: 104.2%;
+  height: 100%;
+  text-align: right;
+  /* padding-left: 2em; */
 }
+
+
+
+
+#autocomplete {
+  width: 100%;
+}
+#country {
+  width: 75%;
+  margin-left: 25%;
+  /* transform-origin: bottom 10px; */
+}
+
+#listing {
+  overflow: scroll;
+  height: 84%;
+}
+
+
 

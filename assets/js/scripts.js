@@ -1,8 +1,8 @@
  /*
   * Merge DualMaps + geoMaps Click the map to set a new location for the Street View camera.
-  *     todo: Clicks to any map render in street view.
-  *     todo: Clicks to any map update all maps 
-  *     todo: Clicks to any map update all maps 
+  *     done: Clicks to any map render in street view.
+  *     done: Clicks to any map update all maps 
+  *     done: Clicks to any map update all maps 
   * 
   */
 
