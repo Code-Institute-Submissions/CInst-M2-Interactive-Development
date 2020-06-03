@@ -44,7 +44,7 @@ Default color schemes utilized to ensue user familiarity.
 
 
 ## Features
-This site utilizes Bootstrap to create a 4 quadrant grid layout. Google maps API was utilized to remove default map functionality, in order to expand user map space and remove the option for eternal link use, to ensure user stays within this application. 
+This site utilizes Bootstrap to create a 4 quadrant grid layout. Google maps API was utilized to remove default map functionality, in order to expand user map space and remove the option for eternal link use, to ensure user stays within this application. Zoom level 18 was used to produce the 3d building renderings for top left Map.
 
 ### Features Left to Implement
 In the future, I would like to implement Virtual Reality API, allowing the site to display in VR.
