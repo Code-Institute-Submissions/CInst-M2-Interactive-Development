@@ -22,8 +22,8 @@ html, body {
 /* MAPS - END */
 
 #hotelSearchData {
-  background-color: rgb(41, 41, 85);
-  /* background:url(""); */
+  background-color: rgba(41, 41, 85, 0.393);
+  background:url("https://raw.githubusercontent.com/MACmidiDEV/CInst-M2-Interactive-Development/master/assets/images/nasa.jpg");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
