@@ -1,0 +1,5 @@
+FROM- google search return of "#1 hotel in the world"
+
+fromURL- https://www.google.com/maps/place/Rosewood+Luang+Prabang/@19.8564709,102.1133815,193m/data=!3m1!1e3!4m18!1m9!3m8!1s0x312f2b066947c5f3:0x98da097ddf4cb3a7!2sRosewood+Luang+Prabang!5m2!4m1!1i2!8m2!3d19.8564264!4d102.1137503!3m7!1s0x312f2b066947c5f3:0x98da097ddf4cb3a7!5m2!4m1!1i2!8m2!3d19.8564264!4d102.1137503
+
+EXTRACT-7lat:25.1418004,lng:55.1849751

@@ -66,7 +66,9 @@ To run locally, you can clone this repository
 `https://github.com/MACmidiDEV/CInst-M2-Interactive-Development.git`
 
 
-## Credits
+## Credits 
+
+The folder Docs in assets contains three files from googles api sample code that were combined to create MidiMaps. 
 
 ### Acknowledgements
 

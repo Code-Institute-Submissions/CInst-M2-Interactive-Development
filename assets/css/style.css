@@ -12,7 +12,6 @@ html, body {
   margin-right: 0;
 }
 
-
 /* MAPS - dualMaps */
 #map, #pano {
   float: left;
@@ -31,27 +30,21 @@ html, body {
   top: 0; 
   width: 33.33%;
   height: 50%;
-
 }
-
 
 #results {
   overflow: scroll;
   height: 100%;
   text-align: right;
-  /* padding-left: 2em; */
 }
-
-
-
 
 #autocomplete {
   width: 100%;
 }
+
 #country {
   width: 75%;
   margin-left: 25%;
-  /* transform-origin: bottom 10px; */
 }
 
 #listing {
